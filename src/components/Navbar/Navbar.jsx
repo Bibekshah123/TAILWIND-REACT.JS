@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ReactComponent as SearchIcon } from "../../assets/icons/search.svg";
-
+import { ReactComponent as HeartIcon } from "../../assets/icons/heart.svg";
+import { ReactComponent as CartIcon } from "../../assets/icons/cart.svg";
 export const Navbar = () => {
   const links = [
     {
@@ -37,6 +38,12 @@ export const Navbar = () => {
         <div>
           <button>
             <SearchIcon />
+          </button>
+          <button>
+            <HeartIcon />
+          </button>
+          <button>
+            <CartIcon />
           </button>
         </div>
       </div>
